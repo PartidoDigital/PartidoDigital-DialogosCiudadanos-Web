@@ -1,11 +1,15 @@
 {
   "watch": {
     "partials": {
-      "patterns": ["templates"],
+      "patterns": [
+        "templates"
+      ],
       "extensions": "html"
     },
     "postcss": {
-      "patterns": ["docs"],
+      "patterns": [
+        "docs"
+      ],
       "ignore": "docs/build/tailwind.css",
       "extensions": "css"
     }
@@ -22,8 +26,8 @@
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "@tailwindcss/ui": "^0.7.2",
-    "autoprefixer": "^9.8.6",
-    "tailwindcss": "^1.7.2"
+    "autoprefixer": "^10.2.5",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
@@ -31,6 +35,6 @@
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
     "npm-watch": "^0.9.0",
-    "postcss-cli": "^7.1.1"
+    "postcss-cli": "^8.3.1"
   }
 }

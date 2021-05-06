@@ -4,14 +4,18 @@
   </div>
 
   <div class="mt-8">
+    <div class="prose prose-sm text-justify">
+      <p>¡Vos definís lo que se propone desde Diálogos Ciudadanos! Hay lugares limitados para que podamos ordenar la participación de quienes quieren sumarse.</p>
+      <p>Reservá tu lugar y hacete escuchar registrándote en el formulario:</p>
+    </div>
     <div class="mt-6">
-      <form action="#" method="POST" class="space-y-6">
+      <form action="#" method="POST" class="space-y-4">
         <div>
           <label for="nombre" class="block text-sm font-medium text-gray-700">
             Nombre
           </label>
           <div class="mt-1">
-            <input id="nombre" name="nombre" type="text" autocomplete="given-name" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            <input id="nombre" name="nombre" type="text" autocomplete="given-name" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
           </div>
         </div>
 
@@ -20,7 +24,7 @@
             Apellido
           </label>
           <div class="mt-1">
-            <input id="apellido" name="apellido" type="text" autocomplete="family-name" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            <input id="apellido" name="apellido" type="text" autocomplete="family-name" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
           </div>
         </div>
 
@@ -29,7 +33,7 @@
             Email
           </label>
           <div class="mt-1">
-            <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
           </div>
         </div>
 
@@ -41,30 +45,30 @@
             <div class="mt-4 space-y-4">
               <div class="relative flex items-start">
                 <div class="flex items-center h-5">
-                  <input id="ayudar-1" name="ayudar" value="organizar-actividades" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
+                  <input id="formativa" name="participacion" value="formativa" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
                 </div>
                 <div class="ml-3 text-sm">
-                  <label for="ayudar-1" class="font-medium text-gray-700 dark:text-gray-300">
+                  <label for="formativa" class="font-medium text-gray-700 dark:text-gray-300">
                     Sesión Formativa (11 de Mayo - 20h)
                   </label>
                 </div>
               </div>
               <div class="relative flex items-start">
                 <div class="flex items-center h-5">
-                  <input id="ayudar-1" name="ayudar" value="organizar-actividades" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
+                  <input id="legislativa" name="participacion" value="legislativa" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
                 </div>
                 <div class="ml-3 text-sm">
-                  <label for="ayudar-1" class="font-medium text-gray-700 dark:text-gray-300">
+                  <label for="legislativa" class="font-medium text-gray-700 dark:text-gray-300">
                     Sesión Legislativa (20 de Mayo - 20h)
                   </label>
                 </div>
               </div>
               <div class="relative flex items-start">
                 <div class="flex items-center h-5">
-                  <input id="ayudar-1" name="ayudar" value="organizar-actividades" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
+                  <input id="hablar" name="participacion" value="hablar" type="checkbox" class="focus:ring-orange-500 h-4 w-4 text-orange-500 border-gray-500 rounded border border-solid">
                 </div>
                 <div class="ml-3 text-sm">
-                  <label for="ayudar-1" class="font-medium text-gray-700 dark:text-gray-300">
+                  <label for="hablar" class="font-medium text-gray-700 dark:text-gray-300">
                     Quiero anotarme para hablar en la Sesión Legislativa.
                   </label>
                 </div>
@@ -74,9 +78,7 @@
         </div>
 
         <div>
-          <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-500 hover:bg-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
-            Registrarme en Diálogos Ciudadanos
-          </button>
+          <button type="submit" class="disabled:opacity-50 w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-orange-500 hover:bg-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Registrarme en Diálogos Ciudadanos</button>
         </div>
       </form>
     </div>

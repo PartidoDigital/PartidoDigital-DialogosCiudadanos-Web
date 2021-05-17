@@ -4,6 +4,18 @@ module.exports = {
   purge: ["./docs/**/*.html"],
   theme: {
     extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            'a:not(.text-white)': {
+              color: theme('colors.orange.500'),
+            },
+            'a.text-white': {
+              color: theme('colors.white')
+            },
+          },
+        },
+      }),
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },

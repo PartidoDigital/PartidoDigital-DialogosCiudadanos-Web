@@ -33,6 +33,7 @@
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
+    "html-partials-compiler": "^1.0.7",
     "live-server": "^1.2.1",
     "npm-watch": "^0.9.0",
     "postcss-cli": "^8.3.1"
